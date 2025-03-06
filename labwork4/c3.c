@@ -13,17 +13,7 @@ Exercise 5:
 Write two C functions to calculate xn , n and x are input from the keyboard by the normal function and recursive function.
 Note: All the functions should be defined in two separated files: *.h and *.c*/
 
-#include <stdio.h>
-
-float f(float x){
-    float e;
-    e=2.5*x;
-    return e;
-}
-
-float g(float x,float y){
-    return x*y;
-}
+#include "c3.h"
 
 int main(){
     float x,y;
