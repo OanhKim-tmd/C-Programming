@@ -6,7 +6,16 @@ a>b --> a%b=a , b%a=b
 
 */
 
-#include "c1.h"
+#include <stdio.h>
+
+int ucln(int a, int b) {
+    while (b != 0) {
+        int temp = b;
+        b = a % b;
+        a = temp;
+    }
+    return a;
+}
 
 int main() {
     int a, b;
