@@ -4,8 +4,6 @@ Note: All the functions should be defined in two separated files: *.h and *.c*/
 
 #include "c5.h"
 
-
-
 int main(){
     int x,n;
     printf(" enter the number x,n:");
