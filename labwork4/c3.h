@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 float f(float x){
-    float e;
-    e=2.5*x;
-    return e;
+    return 2.5*x;
 }
 
 float g(float x,float y){
