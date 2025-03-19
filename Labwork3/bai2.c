@@ -1,26 +1,22 @@
 
 #include <stdio.h>
 int main(){
-    int i,n;
+    int n;
+    int count=0;
     printf("enter the natural number:");
     scanf("%d",&n);
-    if(n>2&&(n!=1||n!=2)){
-        for(i=2;i<n;i++){
+    if(n>0){
+        for(int i=1;i<=n;i++){
             if(n%i==0){
-                printf("Day khong la so ng to");
-                break;
-            }else{
-                printf("day la so ng to");
-                break;
+                count= count+1;
             }
-        
-        }
-    } else if(n==1||n==2){
-        printf("Day khong la so nguyen to");
-    } else {
-        printf("ban can nhap so lon hon 0");
+        } 
     }
-    
+    if(count==2){
+        printf("day la so ng to");
+    }else{
+        printf("day khong la so ng to");
+    }
    
 return 0;
 }
