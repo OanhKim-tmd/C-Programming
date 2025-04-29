@@ -1,14 +1,10 @@
-// #include <stdio.h>
-
-// int main(){
-//     int i=55;
-//     printf("%d %d %d", i++,++i,i);
-// }
-// // i++ in ra i đã rồi mới côngj sau , còn ++i là côngj 1 rồi in ra i
-
+// Unit conversion (inch to cm), calculate area of circle
+// 1 inch = 2.54 cmcm
 #include <stdio.h>
-int main() {
-    int x = 2, y = 5;
-    printf("%d", x & y);
+int main(){
+    float n;
+    scanf("%f",&n);
+    printf("%.2f",n*2.54);
     return 0;
+
 }

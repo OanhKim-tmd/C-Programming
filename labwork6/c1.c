@@ -2,9 +2,13 @@
 
 #include<stdio.h>
 int main(){
-    int a,b;
-    printf("enter the number a,b:");
-    scanf("%d %d",&a,&b);
-    int *p;
+    int n1,n2,sum;
+    int *p1,*p2;
+    printf("enter the number n1,n2:");
+    scanf("%d %d",&n1,&n2);
+    p1=&n1;
+    p2=&n2;
+    sum=*p1+*p2;
+    printf("add two number is:%d",sum);
     return 0;
 }

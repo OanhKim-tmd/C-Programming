@@ -1,8 +1,11 @@
 #include<stdio.h>
-#include<string.h>
 int main(){
-    char *str="His";
-    int i;
-    for(i=0;i<strlen(str);i++)
-    printf("%s", str++);
+    int a,b,c;
+    scanf("%d",&a);
+    scanf("%d",&b);
+    c=a;
+    a=b;
+    b=c;
+    printf("%d %d",a,b);
+    return 0;
 }

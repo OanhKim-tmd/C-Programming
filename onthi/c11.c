@@ -1,12 +1,13 @@
 #include <stdio.h>
-
-int main(){
-    int n=5,l=3;
-    
-    while(l<=n){
-        if(n%l==0){
-            printf("\n %d",l);
-        }
-        l++;
+int main (){
+    int n;
+    scanf("%d",&n);
+    int arr[n];
+    for(int i=0;i<n;i++){
+        printf("enter number %d: ",i+1);
+        scanf("%d",&arr[i]);
     }
+    for(int i=0;i<n;i++){  
+    printf("%d\n",arr[i]);}
+    return 0;
 }

@@ -1,7 +1,4 @@
-#include<stdio.h>
-
-int main(){
-    char greetings[]={"Hello world!"};
-    printf("%s",greetings);
-    return 0;
+#include <stdio.h>
+void m(int k){
+    printf("hi");
 }

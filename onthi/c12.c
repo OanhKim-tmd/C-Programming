@@ -1,10 +1,13 @@
-#include <stdio.h>
-int main() {
-    int n = 3;
-    float sum =0.0;
-    for (int i=1; i<=n;i++){
-        sum = sum + (float)1/i;
-    } 
-    printf("%f",sum);
-return 0;
+//Write a C Program to check whether a given number is even or odd.
+#include<stdio.h>
+int main(){
+    int n;
+    printf("enter the number n:");
+    scanf("%d",&n);
+    if(n%2==0){
+        printf("This is even number.");
+    }else{
+        printf("This is odd number");
+    }
+    return 0;
 }
